@@ -121,11 +121,11 @@ Material:
     - _Color: {r: 0.21568629, g: 0.21568629, b: 0.21568629, a: 1}
     - _ColorShift: {r: 1, g: 1, b: 1, a: 1}
     - _DecalColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DisolveGlowColor: {r: 0, g: 0.83823526, b: 0.76886404, a: 1}
-    - _EdgeGlowColor: {r: 0, g: 0.31861064, b: 0.44852942, a: 1}
+    - _DisolveGlowColor: {r: 0.06244595, g: 0.62524223, b: 0.77205884, a: 1}
+    - _EdgeGlowColor: {r: 1, g: 0.566, b: 0.2794118, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PrimaryColor: {r: 1, g: 0, b: 0.35172415, a: 1}
     - _SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
     - _node_3110: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _node_4908: {r: 0.8382353, g: 0, b: 0, a: 1}
