@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 18de36b841fb3c941acc688ef94545b7
+timeCreated: 1516724085
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Grunge: {fileID: 2800000, guid: 842d53bc8dc1c91409a0a7ca5bc25831, type: 3}
+  - _NormalsAO: {fileID: 2800000, guid: bb00159f5997eac459716e6041f0cb47, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

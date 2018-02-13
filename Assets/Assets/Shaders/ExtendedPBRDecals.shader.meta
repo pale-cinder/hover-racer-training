@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 96d1fbda07a249b4aa2836a16ddfc0d1
+timeCreated: 1516724436
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _EdgeGlowMask: {fileID: 2800000, guid: b1247274caef6b74e954aea38ebda245, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

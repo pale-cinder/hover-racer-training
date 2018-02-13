@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 622664d477b9b477ca07eb1939cd326c
+timeCreated: 1504130495
+=======
+guid: 568225db92050354aae165f0b758038f
+timeCreated: 1504131489
+>>>>>>> 3f1810700e49d37ccf43c82bb20fbd750543ed63
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: WUN
+  fontNames:
+  - WUN
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
