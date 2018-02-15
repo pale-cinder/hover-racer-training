@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CustomBlends:
   - m_From: '**ANY CAMERA**'
-    m_To: TURN ME ON CM_1
+    m_To: Follow cam
     m_Blend:
       m_Style: 1
       m_Time: 0.5

@@ -9,16 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: Global Reference
+  m_Name: Small Cave Volume Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 114030895312982154}
-  - {fileID: 114151363110936568}
-  - {fileID: 114154289792513866}
-  - {fileID: 114896867226755362}
-  - {fileID: 114555643489232010}
-  - {fileID: 114721578521910272}
---- !u!114 &114030895312982154
+  - {fileID: 114940064598561528}
+--- !u!114 &114869425064376422
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -26,164 +21,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
-  m_Name: MotionBlur
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
   m_EditorClassIdentifier: 
   active: 1
   enabled:
     overrideState: 1
     value: 1
-  shutterAngle:
-    overrideState: 1
-    value: 300
-  sampleCount:
-    overrideState: 1
-    value: 20
---- !u!114 &114151363110936568
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
-  m_Name: AutoExposure
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  filtering:
-    overrideState: 1
-    value: {x: 25.931507, y: 62.78081}
-  minLuminance:
-    overrideState: 1
-    value: -3
-  maxLuminance:
-    overrideState: 1
-    value: 3
-  keyValue:
-    overrideState: 1
-    value: 0.1
-  eyeAdaptation:
-    overrideState: 1
-    value: 0
-  speedUp:
-    overrideState: 1
-    value: 2
-  speedDown:
-    overrideState: 1
-    value: 1
---- !u!114 &114154289792513866
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
-  m_Name: Bloom
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
+  colored:
+    overrideState: 0
     value: 1
   intensity:
-    overrideState: 1
-    value: 0.43
-  threshold:
-    overrideState: 1
-    value: 0.22
-  softKnee:
-    overrideState: 1
-    value: 0.322
-  diffusion:
-    overrideState: 1
-    value: 4
-  anamorphicRatio:
     overrideState: 0
     value: 0
-  color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
-  mobileOptimized:
-    overrideState: 0
-    value: 0
-  dirtTexture:
-    overrideState: 1
-    value: {fileID: 2800000, guid: 3884f7a2d04ffe8409ad9200b275896f, type: 3}
-  dirtIntensity:
-    overrideState: 1
-    value: 4
---- !u!114 &114555643489232010
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
-  m_Name: ChromaticAberration
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  spectralLut:
-    overrideState: 0
-    value: {fileID: 0}
-  intensity:
-    overrideState: 1
-    value: 0.493
-  mobileOptimized:
-    overrideState: 0
-    value: 0
---- !u!114 &114721578521910272
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
-  m_Name: Vignette
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  mode:
-    overrideState: 1
-    value: 0
-  color:
-    overrideState: 0
-    value: {r: 0, g: 0, b: 0, a: 1}
-  center:
-    overrideState: 0
-    value: {x: 0.5, y: 0.5}
-  intensity:
-    overrideState: 1
-    value: 0.365
-  smoothness:
-    overrideState: 1
-    value: 0.391
-  roundness:
+  size:
     overrideState: 0
     value: 1
-  rounded:
+  lumContrib:
     overrideState: 0
-    value: 0
-  mask:
-    overrideState: 0
-    value: {fileID: 0}
-  opacity:
-    overrideState: 0
-    value: 1
---- !u!114 &114896867226755362
+    value: 0.8
+--- !u!114 &114940064598561528
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -206,7 +63,7 @@ MonoBehaviour:
     value: {fileID: 0}
   tonemapper:
     overrideState: 1
-    value: 2
+    value: 3
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -232,8 +89,8 @@ MonoBehaviour:
     overrideState: 0
     value: {fileID: 0}
   temperature:
-    overrideState: 1
-    value: 37
+    overrideState: 0
+    value: 0
   tint:
     overrideState: 0
     value: 0
@@ -244,17 +101,17 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   saturation:
-    overrideState: 1
-    value: -38
+    overrideState: 0
+    value: 0
   brightness:
     overrideState: 0
     value: 0
   postExposure:
-    overrideState: 1
-    value: 0.58
+    overrideState: 0
+    value: 0
   contrast:
-    overrideState: 1
-    value: 45
+    overrideState: 0
+    value: 0
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -280,8 +137,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   mixerBlueOutBlueIn:
-    overrideState: 1
-    value: 120
+    overrideState: 0
+    value: 100
   lift:
     overrideState: 0
     value: {x: 1, y: 1, z: 1, w: 0}
@@ -290,7 +147,7 @@ MonoBehaviour:
     value: {x: 1, y: 1, z: 1, w: 0}
   gain:
     overrideState: 0
-    value: {x: 0.958169, y: 0.97169334, z: 1, w: 0.020746877}
+    value: {x: 1, y: 1, z: 1, w: 0}
   masterCurve:
     overrideState: 0
     value:
