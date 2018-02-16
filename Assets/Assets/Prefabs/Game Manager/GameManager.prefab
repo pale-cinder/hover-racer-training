@@ -130,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4608695557701912
 Transform:
   m_ObjectHideFlags: 1
@@ -571,7 +571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939db11b621af3f44ae5622c35955317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raceHasBegun: 0
   numberOfLaps: 3
   vehicleMovement: {fileID: 0}
   shipUI: {fileID: 0}
