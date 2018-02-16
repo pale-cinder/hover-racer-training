@@ -3727,7 +3727,17 @@ Prefab:
     - target: {fileID: 114610817507956994, guid: a3f49e0f9143040a78db2929d7a712e4,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114610817507956994, guid: a3f49e0f9143040a78db2929d7a712e4,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114610817507956994, guid: a3f49e0f9143040a78db2929d7a712e4,
+        type: 2}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3f49e0f9143040a78db2929d7a712e4, type: 2}
@@ -3750,9 +3760,16 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 114326781301315480, guid: cdb44e5c4b24c094687244115963a106, type: 2}
+    value: {fileID: 1452455651}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &1452455651 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1801690611591876, guid: a3f49e0f9143040a78db2929d7a712e4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1452455648}
 --- !u!1 &1594099311
 GameObject:
   m_ObjectHideFlags: 0
