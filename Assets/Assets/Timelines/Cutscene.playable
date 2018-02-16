@@ -19,7 +19,7 @@ MonoBehaviour:
   - {fileID: 114922731846660220}
   m_FixedDuration: 0
   m_EditorSettings:
-    m_Framerate: 60
+    fps: 60
   m_DurationMode: 0
 --- !u!74 &74243618121228722
 AnimationClip:
@@ -434,7 +434,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 2.1833333333333336
+    m_BlendOutDuration: 0.016666666666666607
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -516,26 +516,50 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam 1B - Flags
     m_Version: 1
-  - m_Start: 2.4833333333333334
+  - m_Start: 2.316666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 114269943393838360}
     m_UnderlyingAsset: {fileID: 0}
-    m_Duration: 5.733333333333335
+    m_Duration: 6.4
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114186692462708544}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: 0
+    m_BlendInDuration: 0.016666666666666607
+    m_BlendOutDuration: 3.466666666666667
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -550,20 +574,32 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam 2 - Dolly Flythrough
     m_Version: 1
-  - m_Start: 8.216666666666667
+  - m_Start: 5.25
     m_ClipIn: 0
     m_Asset: {fileID: 114748968304843338}
     m_UnderlyingAsset: {fileID: 0}
-    m_Duration: 2.5833333333333335
+    m_Duration: 8.85
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114186692462708544}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 2.583333333333332
+    m_BlendInDuration: 3.466666666666667
+    m_BlendOutDuration: 4.4833333333333325
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -596,16 +632,74 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam 3A - Starting Wide
     m_Version: 1
-  - m_Start: 8.216666666666669
+  - m_Start: 9.616666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 114931444088655748}
     m_UnderlyingAsset: {fileID: 114931444088655748}
-    m_Duration: 2.716666666666665
+    m_Duration: 10.883333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114186692462708544}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 2.583333333333332
+    m_BlendInDuration: 4.4833333333333325
+    m_BlendOutDuration: 5.083333333333334
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: CM vcam 2 - Dolly Flythrough
+    m_Version: 1
+  - m_Start: 15.416666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114520314054760022}
+    m_UnderlyingAsset: {fileID: 114520314054760022}
+    m_Duration: 11.716666666664668
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114186692462708544}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 5.083333333333334
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -652,7 +746,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Follow Cam
+    m_DisplayName: Follow cam
     m_Version: 1
 --- !u!114 &114228824889586550
 MonoBehaviour:
@@ -709,6 +803,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VirtualCamera:
     exposedName: 14766c7cd65e7419f915a2fa01265ba7
+    defaultValue: {fileID: 0}
+--- !u!114 &114520314054760022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  VirtualCamera:
+    exposedName: 3949a0ea60b14234db1063368b015257
     defaultValue: {fileID: 0}
 --- !u!114 &114748968304843338
 MonoBehaviour:
