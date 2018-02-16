@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 114940064598561528}
+  - {fileID: 114869425064376422}
 --- !u!114 &114869425064376422
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -29,11 +30,11 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   colored:
-    overrideState: 0
+    overrideState: 1
     value: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.581
   size:
     overrideState: 0
     value: 1
@@ -63,7 +64,7 @@ MonoBehaviour:
     value: {fileID: 0}
   tonemapper:
     overrideState: 1
-    value: 3
+    value: 2
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -89,8 +90,8 @@ MonoBehaviour:
     overrideState: 0
     value: {fileID: 0}
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 6
   tint:
     overrideState: 0
     value: 0
